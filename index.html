@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description"
+    content="It's great to meet you I am Asutosh Sahoo the developer of this site.Everything goes good and fine i guess
+    let's improve our carmodel website.">
+    <meta name="author" content="AStechnical">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Carmodels</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+            color:black;
+            text-decoration: none;
+            font-family:Roboto;
+        }
+        .logo{
+            text-align:left;
+                    
+        }
+        .ourservicegallery{
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            gap: 10px;
+            scrollbar-width:none;
+            scroll-snap-type: x mandatory;
+        }
+        .ourservicegallery img{
+            width:320px;
+            height: 190px;
+            border-radius: 10px;
+            scroll-snap-align:center;
+        }
+        .image-scroll-container {
+            scroll-behavior: smooth;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+        }
+        .navbar a{
+            transition:all 0.3s ease-in-out;
+        }
+        .navbar a:hover{
+            color: white;
+            background-color:darkslategrey;
+            border-radius: 3px;
+        }
+        .navbar a:first-child{
+            margin-right: 20px;
+            margin-left: -15px;
+        }
+    </style>
+    
+</head>
+<body>
+   <header>
+        <div class="logo">
+            <a href="https://www.bmw.in/en/index.html" target="_blank">
+            <img src="asu.png" alt="logo of Asu'Softwares" width=180" height="auto">
+        </a>
+        </div>
+        <nav class="navbar">
+            <ul style="list-style: none; display:flex ;gap: 10px;">
+                <li><a href="#home" style="text-decoration: none; ">Home</a></li>
+                <li><a href="#about"style="text-decoration: none;">About</a></li>
+                <li><a href="#services" style="text-decoration: none;">Services</a></li>
+                <li><a href="#gallery" style="text-decoration: none;">Gallery</a></li>
+                <li><a href="#contact" style="text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main page Section-->
+    <main>
+        <h1>Best Cars Model Website By <span style="color: red;">Asu</span></h1>
+        <div class="mainsection">
+            <p>The best website ever made on html based cars modeling and designing ideas by webpage</p>
+            <a href=""><button>MyWork</button></a>
+            <a href=""><button>Instagram</button></a>
+            <video width="100%" height="auto" autoplay loop muted>
+                <source src="race.mp4" type="video/mp4">
+            </video>
+            <section name="Aboutus">
+                <p><h2>About <span style="color: red ;">AS </span>carmodel Website</h2>
+                    It's great to meet you I am Asutosh Sahoo the developer of this site.Everything goes good and fine i guess
+                    let's improve our carmodel website.
+                </p>
+                <p>
+                    <h3>My coding Knowledge</h3>
+                    <div>
+                        <label for="HTML">HTML Knowledge :</label>
+                        <progress id="HTML" max="100" value="80"></progress>
+                    </div>
+                    <div>
+                        <label for="HTML">CSS Knowledge :</label>
+                        <progress id="HTML" max="100" value="50"></progress>
+                    </div>
+                    <div>
+                        <label for="HTML">JSCRIPT Knowledge</label>
+                        <progress id="HTML" max="100" value="40"></progress>
+                    </div>
+                    <div>
+                        <label for="HTML">REACT Knowledge :</label>
+                        <progress id="HTML" max="100" value="65"></progress>
+                    </div>
+                    <div>
+                        <label for="HTML">NODE.js Knowledge :</label>
+                        <progress id="HTML" max="100" value="50">50%</progress>
+                    </div>
+                </p>
+            </section>
+
+
+
+
+            <!-------------------------------------------Our Services Section------------------------------------------------------------------>
+            
+            <section name="ourservicegallery">
+                <h2>Our Services</h2>
+                <div  class="ourservicegallery" style="display: flex;">
+                    <figure>
+                        <picture>
+                            <source srcset="images/rollyimgweb.webp" type="image/webp" >
+                            <img src="images/rollyimg.jpg" alt="rollyimg" type="image/jpeg">
+                        </picture>
+                        <figcaption style="text-align: center;">ROLLS ROYCE</figcaption>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source srcset="images/thirdimweb.webp" type="image/webp" >
+                            <img src="images/thirdim.jpg" alt="rollyimg" type="image/jpeg">
+                        </picture>
+                        <figcaption style="text-align: center;">PORSCHE</figcaption>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source srcset="images/secondimweb.webp" type="image/webp" >
+                            <img src="images/secondim.jpg" alt="rollyimg" type="image/jpeg">
+                        </picture>
+                        <figcaption style="text-align: center;">MUSTANG GT</figcaption>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source srcset="images/lamboimgweb.webp" type="image/webp" >
+                            <img src="images/lamboimg.jpg" alt="rollyimg" type="image/jpeg">
+                        </picture>
+                        <figcaption style="text-align: center;">FERARI</figcaption>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source srcset="images/firstimweb.webp" type="image/webp" >
+                            <img src="images/firstim.jpg" alt="rollyimg" type="image/jpeg">
+                        </picture>
+                        <figcaption style="text-align: center;">LAMBORGHINI</figcaption>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source srcset="images/bmwimgweb.webp" type="image/webp" >
+                            <img src="images/bmwimg.jpg" alt="rollyimg" type="image/jpeg">
+                        </picture>
+                        <figcaption style="text-align: center;">BMW M5</figcaption>
+                    </figure>
+
+                </div>
+            </section>
+
+
+            <!----------------------------------------------------our blogs area--------------------------------------------->
+
+
+            <section name="Ourblogs">
+                <article>
+                    <h2>Our Blogs</h2>
+                    <h3>Elevate Your Web Designing with <span style="color: red;">AS </span>Softwares</h3>
+                    <section>
+                        <h4>The Birth of Automobiles</h4>
+                            <p>Cars have revolutionized transportation, transforming how people travel and connect. The journey
+                                began in the late 19th century with steam-powered and gasoline-driven vehicles. Karl Benz is
+                                credited with creating the first practical car, the Benz Patent-Motorwagen, in 1886. Later, Henry Ford
+                                introduced mass production with the Model T in 1908, making cars affordable for the public.
+                            </p>
+                        <h4>The Rise of Modern Automobiles</h4>
+                            <p>Over the years, the automobile industry has witnessed significant advancements. From improved
+                                engines to enhanced safety features, cars have evolved to become faster, more comfortable, and
+                                fuel-efficient. The introduction of automatic transmissions, power steering, and air conditioning made
+                                driving more convenient.
+                            </p>
+                        <h4>Electric and Hybrid Revolution</h4>
+                            <p>With growing environmental concerns, the industry is shifting toward greener alternatives. Electric
+                                Vehicles (EVs), such as those by Tesla, and hybrid models have gained popularity. They reduce
+                                carbon emissions and offer cost-effective fuel alternatives. Governments worldwide are promoting
+                                EV adoption through incentives and charging infrastructure development.
+                            </p>
+                        <h4>The Future: Autonomous and Smart Cars</h4>
+                            <p>The next phase in automotive evolution is self-driving technology. Companies like Tesla, Google
+                                (Waymo), and traditional automakers are investing in autonomous vehicles powered by AI. Smart
+                                cars with features like lane assist, adaptive cruise control, and connected systems are enhancing
+                                road safety and driving convenience.
+                            </p>
+                        <h4>Conclusion</h4>
+                            <p>From the early days of steam engines to AI-powered self-driving cars, the automobile industry has
+                                come a long way. As technology continues to evolve, the future of cars promises to be cleaner,
+                                smarter, and more efficient than ever before.
+                            </p>
+                            <p>Thank you for reading blog of ours,be the Part of designing Cars modeling and detailing.</p>
+                    </section>
+                </article>
+            </section>
+
+
+            <!------------------------------Podcast Channel Using As audio tag for listen music--------------------------------------->
+
+
+            <section name="podcast">
+                <p><b>CheckOur New Audio podcast by <span style="color: red;">AS</span>Softwares</b></p>
+                <audio src="podcastsong.mp3" type="audio/mp3" controls muted></audio>
+            </section>
+
+
+
+            <!---------------------Contactus page for User use for Inquiry about  Software or User-Interface---------------------------->
+           
+
+            <section name="contactus" id="contact">
+                <h4>Contact Us</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.0175184003415!2d85.
+        61532447451738!3d20.174996081269178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19aca3ffabfe1d%3A0x77e358cccdb8cd5f!
+        2sAnjushree%20Kalyan%20Mandap!5e0!3m2!1sen!2sin!4v1740490767911!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen=""
+         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+         <!---------------------------------------------------------Form contactus----------------------------------------------------->
+                <form>
+                    <div>
+                        <label for="username">Name :</label>
+                        <input type="text" id="username" placeholder="Username">
+                    </div><br>
+                    <div>
+                        <label for="mail">Email :</label>
+                        <input type="email" id="mail" placeholder="enter your mail" pattern="[0-9]{}" required>
+                    </div><br>
+                    <div>
+                        <label for="message">Name :</label>
+                        <textarea type="text" id="message" placeholder="Any query!" cols="20" rows="8"></textarea>
+                    </div><br>
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+        </div> 
+    </main>
+<footer>
+    <p>Copyright &copy;2025 All rights reserved|This template is made for only practice purposes.</p>
+</footer>
+</body>
+</html>
